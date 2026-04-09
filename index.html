@@ -9,13 +9,22 @@
     style="
       margin: 0;
       padding: 0;
+      width: 100%;
       background: #ffffff;
       font-family: Arial, Helvetica, sans-serif;
       color: #2f2f2f;
+      box-sizing: border-box;
     "
   >
     <div
-      style="max-width: 980px; margin: 0 auto; padding: 20px; line-height: 1.5"
+      style="
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 20px;
+        line-height: 1.5;
+        box-sizing: border-box;
+      "
     >
       <div
         style="
@@ -25,6 +34,8 @@
           font-weight: bold;
           color: #3d4a38;
           border: 1px solid #d8e1d1;
+          box-sizing: border-box;
+          width: 100%;
         "
       >
         Paketrechner
@@ -36,6 +47,8 @@
           border-top: none;
           background: #fff;
           padding: 20px;
+          box-sizing: border-box;
+          width: 100%;
         "
       >
         <div style="margin-bottom: 16px; font-size: 14px; color: #666">
@@ -44,9 +57,18 @@
         </div>
 
         <div
-          style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 18px"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 18px;
+            width: 100%;
+            box-sizing: border-box;
+          "
         >
-          <div style="flex: 1 1 220px">
+          <div
+            style="flex: 1 1 220px; min-width: 220px; box-sizing: border-box"
+          >
             <label
               for="steico-dicke"
               style="
@@ -86,7 +108,9 @@
             </select>
           </div>
 
-          <div style="flex: 1 1 220px">
+          <div
+            style="flex: 1 1 220px; min-width: 220px; box-sizing: border-box"
+          >
             <label
               for="steico-flaeche"
               style="
@@ -140,6 +164,8 @@
             padding: 16px;
             font-size: 15px;
             color: #2f2f2f;
+            width: 100%;
+            box-sizing: border-box;
           "
         >
           Bitte Dicke auswählen und benötigte Fläche eingeben.
